@@ -1,10 +1,10 @@
  
 
-## <a name="🏮 ғᴇᴀᴛᴜʀᴇs 🏮"></a>Features
+## 🏮 ғᴇᴀᴛᴜʀᴇs 🏮
 Starts streaming your inputs while downloading and converting them. Also, it
 doesn't make produce files.
 
-### 👮🏻‍♀️ Safe and handy
+### sᴀғᴇ ᴀɴᴅ ʜᴀɴᴅʏ
 
 Restricts control and sensitive commands to admins.
 
@@ -36,19 +36,19 @@ chat will have its own song queue.
 Music Player is multilingual and speaks [various languages](#languages),
 thanks to the translators.
 
-## 🚀 <a name="deploy"></a>Deploy
+## 🚀 <a name="deploy"></a>🔸ᴅᴇᴘʟᴏʏ🔸
 
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://deploy.safone.tech)
 
 Note: `First Fork The Repo Then Click On Deploy To Heroku Button!`
 
 
-## ☁️ <a name="self_host"></a>Self Host
+##  <a name="self_host"></a>🇮🇳 sᴇʟғ ʜᴏsᴛ 🇮🇳
 
-- Legecy Method
+- ʟᴇɢᴇᴄʏ ᴍᴇᴛʜᴏᴅ
 ```bash
-$ git clone https://github.com/AsmSafone/MusicPlayer
-$ cd MusicPlayer
+$ git clone https://github.com/Sumit9969/RISU-MUSIC-BOT
+$ cd RISU-MUSIC-BOT
 $ sudo apt install git curl python3-pip ffmpeg -y
 $ pip3 install -U pip
 $ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -63,15 +63,15 @@ $ python3 main.py
 
 - Docker Build Method
 ```bash
-$ git clone https://github.com/AsmSafone/MusicPlayer
-$ cd MusicPlayer
+$ git clone https://github.com/Sumit9969/RISU-MUSIC-BOT
+$ cd RISU-MUSIC-BOT
 $ cp sample.env .env
 # < edit .env with your own values >
 $ sudo docker build . -t musicplayer
 $ sudo docker run musicplayer
 ```
 
-## 📄 <a name="commands"></a>Commands
+## <a name="commands"></a>⭕ ᴄᴏᴍᴍᴀɴᴅs ⭕
 
 • /ping ᴜsᴀɢᴇ: `ᴄʜᴇᴄᴋ ɪғ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ`
 
