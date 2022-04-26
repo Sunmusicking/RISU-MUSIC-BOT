@@ -51,15 +51,6 @@ async def ping(_, message: Message):
 
 
 @client.on_message(
-    filters.command("start", config.PREFIXES) & ~filters.bot & ~filters.edited
-)
-@language
-@handle_error
-async def start(_, message: Message, lang):
-    await message.reply_text(lang["startText"] % message.from_user.mention)
-
-
-@client.on_message(
     filters.command("help", config.PREFIXES) & ~filters.private & ~filters.edited
 )
 @language
