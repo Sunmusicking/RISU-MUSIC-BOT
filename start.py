@@ -2,7 +2,7 @@ import asyncio
 from time import time
 from datetime import datetime
 from config import BOT_USERNAME
-from config import GROUP_SUPPORT, UPDATES_CHANNEL, START_PIC
+from config import GROUP_SUPPORT, UPDATES_CHANNEL
 from NIXA.filters import command
 from NIXA.command import commandpro
 from pyrogram import filters
@@ -35,10 +35,10 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{START_PIC}",
+        photo=f"https://te.legra.ph/file/852ec1d19ae76335aea02.jpg",
         caption=f"""**ʜᴇʏ ɢᴜʏꜱ 
 ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
-ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
+ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Simple_Mundaa)
 **""",
     reply_markup=InlineKeyboardMarkup(
