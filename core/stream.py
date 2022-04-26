@@ -136,7 +136,7 @@ def get_quality(song: Song) -> Union[AudioPiped, AudioVideoPiped]:
                 song.remote, LowQualityAudio(), LowQualityVideo(), song.headers
             )
         else:
-            print("WARNING: Invalid Quality Specified. Defaulting to High!")
+            print("𝚆𝙰𝚁𝙽𝙸𝙽𝙶: ɪɴᴠᴀʟɪᴅ ǫᴜᴀʟɪᴛʏ sᴘᴇᴄɪғɪᴇᴅ. ᴅᴇғᴀᴜʟᴛɪɴɢ ʜɪɢʜ!")
             return AudioVideoPiped(
                 song.remote, HighQualityAudio(), HighQualityVideo(), song.headers
             )
@@ -148,5 +148,5 @@ def get_quality(song: Song) -> Union[AudioPiped, AudioVideoPiped]:
         elif config.QUALITY.lower() == "low":
             return AudioPiped(song.remote, LowQualityAudio(), song.headers)
         else:
-            print("WARNING: Invalid Quality Specified. Defaulting to High!")
+            print("𝚆𝙰𝚁𝙽𝙸𝙽𝙶: ɪɴᴠᴀʟɪᴅ ǫᴜᴀʟɪᴛʏ sᴘᴇᴄɪғɪᴇᴅ. ᴅᴇғᴀᴜʟᴛɪɴɢ ʜɪɢʜ!")
             return AudioPiped(song.remote, HighQualityAudio(), song.headers)
