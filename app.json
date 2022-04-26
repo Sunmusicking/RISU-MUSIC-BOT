@@ -1,7 +1,7 @@
 {
-    "name": "Music Player",
-    "description": "A Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls",
-    "logo": "https://github.com/AsmSafone/MusicPlayer/raw/master/theme/logo.png",
+    "name": "ʀɪsᴜ ᴍᴜsɪᴄ ʙᴏᴛ",
+    "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʙᴏᴛ ᴡʀɪɪᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴜsɪɴɢ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs...",
+    "logo": "https://te.legra.ph/file/53cd6d1e13e51c9192c2c.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
