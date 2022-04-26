@@ -1,9 +1,6 @@
  
 
-## ✨ <a name="features"></a>Features
-
-### ⚡️ Fast & Light
-
+## <a name="🏮 ғᴇᴀᴛᴜʀᴇs 🏮"></a>Features
 Starts streaming your inputs while downloading and converting them. Also, it
 doesn't make produce files.
 
@@ -11,7 +8,7 @@ doesn't make produce files.
 
 Restricts control and sensitive commands to admins.
 
-### 🗑 Clean and spam free
+# 🗑 Clean and spam free
 
 Deletes old playing trash to keep your chats clean.
 
@@ -92,26 +89,6 @@ $ sudo docker run musicplayer
 
 ## 📄 <a name="commands"></a>Commands
 
-Command | Description
-:--- | :---
-• !ping | Check if alive or not
-• !start / !help | Show the help for commands
-• !mode / !switch | Switch the stream mode (audio/video)
-• !p / !play [song name or youtube link] | Play a song in vc, if already playing add to queue
-• !radio / !stream [radio url or stream link] | Play a live stream in vc, if already playing add to queue
-• !pl / !playlist [playlist link] | Play the whole youtube playlist at once
-• !skip / !next | Skip to the next song
-• !m / !mute | Mute the current stream
-• !um / !unmute | Unmute the muted stream
-• !ps / !pause | Pause the current stream
-• !rs / !resume | Resume the paused stream
-• !list / !queue | Show the songs in the queue
-• !mix / !shuffle | Shuflle the queued playlist
-• !loop / !repeat | Enable or disable the loop mode
-• !lang / language [language code] | Set the bot language in group
-• !ip / !import | Import queue from exported file
-• !ep / !export | Export the queue for import in future
-• !stop / !leave | Leave from vc and clear the queue
-• !update / !restart | Update and restart your music player
-
+Commands🔸**\n\n• <prefix>ping\nᴜsᴀɢᴇ: `ᴄʜᴇᴄᴋ ɪғ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ`\n\n• <prefix>repo\nᴜsᴀɢᴇ: `ғɪʀsᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `\n\n• <prefix>start | <prefix>help\nᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅᴀs`\n\n• <prefix>mode | <prefix>switch\nᴜsᴀɢᴇ: `sᴡɪᴛᴄʜ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴍᴏᴅᴇ (ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ)`\n\n• <prefix>p | <prefix>play [sᴏɴɢ ɴᴀᴍᴇ | ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ sᴏɴɢ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ `\n\n• <prefix>radio | <prefix>stream [ʀᴀᴅɪᴏ ᴜʀʟ | sᴛʀᴇᴀᴍ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ ʟɪᴠᴇ sᴛʀᴇᴀᴍ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ`\n\n• <prefix>pl | <prefix>playlist [ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴛʜᴇ ᴡʜᴏʟᴇ ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ᴀᴛ ᴏɴᴄᴇ`\n\n• <prefix>skip | <prefix>next\nᴜsᴀɢᴇ: `sᴋɪᴘ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴏɴɢ`\n\n• <prefix>m | <prefix>mute\nᴜsᴀɢᴇ: `ᴍᴜᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`\n\n• <prefix>um | <prefix>unmute\nᴜsᴀɢᴇ: `ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ sᴛʀᴇᴀᴍ`\n\n• <prefix>ps | <prefix>pause\nᴜsᴀɢᴇ: `ᴘᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`\n\n• <prefix>rs | <prefix>resume\nᴜsᴀɢᴇ: `ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴘᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ`\n\n• <prefix>list | <prefix>queue\nᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ sᴏɴɢs ɪɴ ᴛʜᴇ ǫᴜᴇᴜᴇ`\n\n• <prefix>mix | <prefix>shuffle\nᴜsᴀɢᴇ: `sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ`\n\n• <prefix>loop | <prefix>repeat\nᴜsᴀɢᴇ: `ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ʟᴏᴏᴘ ᴍᴏᴅᴇ`\n\n• <prefix>lang | language [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ]\nᴜsᴀɢᴇ : `sᴇᴛ ᴛʜᴇ ʙᴏᴛ ʟᴀɴɢᴜᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ`\n\n• <prefix>ip | <prefix>import\nᴜsᴀɢᴇ: `ɪᴍᴘᴏʀᴛ ǫᴜᴇᴜᴇ ғʀᴏᴍ ᴇxᴘᴏʀᴛᴇᴅ ғɪʟᴇ `\n\n• <prefix>ep | <prefix>export\nᴜsᴀɢᴇ : `ᴇxᴘᴏʀᴛ ᴛʜᴇ ǫᴜᴇᴜᴇ ғᴏʀ ɪᴍᴘᴏʀᴛ ɪɴ ғᴜᴛᴜʀᴇ`\n\n• <prefix>stop | <prefix>leave\nᴜsᴀɢᴇ: `ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴠᴄ ᴀɴᴅ ᴄʟᴇᴀʀ ᴛʜᴇ ǫᴜᴇᴜᴇ`\n\n• <prefix>restart | <prefix>update\nᴜsᴀɢᴇ: `ʀᴇsᴛᴀʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ`\n\n© **ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) | [ᴅᴇᴍᴏɴ ᴄʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)**"
+}
  
