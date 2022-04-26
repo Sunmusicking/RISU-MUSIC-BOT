@@ -91,6 +91,33 @@ $ sudo docker run musicplayer
 
 • /ping ᴜsᴀɢᴇ: `ᴄʜᴇᴄᴋ ɪғ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ`
 • /repo 
-ᴜsᴀɢᴇ: `ғɪʀsᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `\n\n• <prefix>start | <prefix>help\nᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅᴀs`\n\n• <prefix>mode | <prefix>switch\nᴜsᴀɢᴇ: `sᴡɪᴛᴄʜ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴍᴏᴅᴇ (ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ)`\n\n• <prefix>p | <prefix>play [sᴏɴɢ ɴᴀᴍᴇ | ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ sᴏɴɢ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ `\n\n• <prefix>radio | <prefix>stream [ʀᴀᴅɪᴏ ᴜʀʟ | sᴛʀᴇᴀᴍ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ ʟɪᴠᴇ sᴛʀᴇᴀᴍ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ`\n\n• <prefix>pl | <prefix>playlist [ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ʟɪɴᴋ]\nᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴛʜᴇ ᴡʜᴏʟᴇ ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ᴀᴛ ᴏɴᴄᴇ`\n\n• <prefix>skip | <prefix>next\nᴜsᴀɢᴇ: `sᴋɪᴘ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴏɴɢ`\n\n• <prefix>m | <prefix>mute\nᴜsᴀɢᴇ: `ᴍᴜᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`\n\n• <prefix>um | <prefix>unmute\nᴜsᴀɢᴇ: `ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ sᴛʀᴇᴀᴍ`\n\n• <prefix>ps | <prefix>pause\nᴜsᴀɢᴇ: `ᴘᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`\n\n• <prefix>rs | <prefix>resume\nᴜsᴀɢᴇ: `ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴘᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ`\n\n• <prefix>list | <prefix>queue\nᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ sᴏɴɢs ɪɴ ᴛʜᴇ ǫᴜᴇᴜᴇ`\n\n• <prefix>mix | <prefix>shuffle\nᴜsᴀɢᴇ: `sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ`\n\n• <prefix>loop | <prefix>repeat\nᴜsᴀɢᴇ: `ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ʟᴏᴏᴘ ᴍᴏᴅᴇ`\n\n• <prefix>lang | language [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ]\nᴜsᴀɢᴇ : `sᴇᴛ ᴛʜᴇ ʙᴏᴛ ʟᴀɴɢᴜᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ`\n\n• <prefix>ip | <prefix>import\nᴜsᴀɢᴇ: `ɪᴍᴘᴏʀᴛ ǫᴜᴇᴜᴇ ғʀᴏᴍ ᴇxᴘᴏʀᴛᴇᴅ ғɪʟᴇ `\n\n• <prefix>ep | <prefix>export\nᴜsᴀɢᴇ : `ᴇxᴘᴏʀᴛ ᴛʜᴇ ǫᴜᴇᴜᴇ ғᴏʀ ɪᴍᴘᴏʀᴛ ɪɴ ғᴜᴛᴜʀᴇ`\n\n• <prefix>stop | <prefix>leave\nᴜsᴀɢᴇ: `ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴠᴄ ᴀɴᴅ ᴄʟᴇᴀʀ ᴛʜᴇ ǫᴜᴇᴜᴇ`\n\n• <prefix>restart | <prefix>update\nᴜsᴀɢᴇ: `ʀᴇsᴛᴀʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ`\n\n© **ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) | [ᴅᴇᴍᴏɴ ᴄʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)**"
+ᴜsᴀɢᴇ: `ғɪʀsᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `
+• /start | /help
+ᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅᴀs`
+• /mode | /switch
+nᴜsᴀɢᴇ: `sᴡɪᴛᴄʜ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴍᴏᴅᴇ (ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ)`
+• /p | /play [sᴏɴɢ ɴᴀᴍᴇ | ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ]
+ᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ sᴏɴɢ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ `
+• /radio | /stream [ʀᴀᴅɪᴏ ᴜʀʟ | sᴛʀᴇᴀᴍ ʟɪɴᴋ]
+ᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴀ ʟɪᴠᴇ sᴛʀᴇᴀᴍ ɪɴ ᴠᴄ ɪғ ᴀʟʀᴇᴀᴅʏ ᴘʟᴀʏɪɴɢ ᴀᴅᴅ ᴛᴏ ǫᴜᴇᴜᴇ`
+• /pl | /playlist [ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ʟɪɴᴋ]
+ᴜsᴀɢᴇ: `ᴘʟᴀʏ ᴛʜᴇ ᴡʜᴏʟᴇ ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ᴀᴛ ᴏɴᴄᴇ`
+• /skip | /next
+ᴜsᴀɢᴇ: `sᴋɪᴘ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴏɴɢ`
+• /m | /mute\nᴜsᴀɢᴇ: `ᴍᴜᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`
+• /um | /unmute
+ᴜsᴀɢᴇ: `ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ sᴛʀᴇᴀᴍ`
+• /ps | /pause\nᴜsᴀɢᴇ: `ᴘᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛʀᴇᴀᴍ`
+• /rs | /resume
+ᴜsᴀɢᴇ: `ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴘᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ`
+• /list | /queue
+ᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ sᴏɴɢs ɪɴ ᴛʜᴇ ǫᴜᴇᴜᴇ`
+• /mix | /shuffle
+ᴜsᴀɢᴇ: `sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ`
+• /loop | /repeat
+ᴜsᴀɢᴇ: `ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ʟᴏᴏᴘ ᴍᴏᴅᴇ`
+• /lang | language [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ]
+ᴜsᴀɢᴇ : `sᴇᴛ ᴛʜᴇ ʙᴏᴛ ʟᴀɴɢᴜᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ`
+• /ip | /import\nᴜsᴀɢᴇ: `ɪᴍᴘᴏʀᴛ ǫᴜᴇᴜᴇ ғʀᴏᴍ ᴇxᴘᴏʀᴛᴇᴅ ғɪʟᴇ `\n\n• <prefix>ep | <prefix>export\nᴜsᴀɢᴇ : `ᴇxᴘᴏʀᴛ ᴛʜᴇ ǫᴜᴇᴜᴇ ғᴏʀ ɪᴍᴘᴏʀᴛ ɪɴ ғᴜᴛᴜʀᴇ`\n\n• <prefix>stop | <prefix>leave\nᴜsᴀɢᴇ: `ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴠᴄ ᴀɴᴅ ᴄʟᴇᴀʀ ᴛʜᴇ ǫᴜᴇᴜᴇ`\n\n• <prefix>restart | <prefix>update\nᴜsᴀɢᴇ: `ʀᴇsᴛᴀʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ`\n\n© **ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) | [ᴅᴇᴍᴏɴ ᴄʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)**"
 }
  
