@@ -71,27 +71,13 @@ $ sudo docker build . -t musicplayer
 $ sudo docker run musicplayer
 ```
 
-## ⚒ <a name="configs"></a>Configs
-
-- `API_ID`: Telegram app id from https://my.telegram.org/apps.
-- `API_HASH`: Telegram app hash from https://my.telegram.org/apps.
-- `SESSION`: Pyrogram string session. You can generate from [here](https://replit.com/@AsmSafone/genStr).
-- `SUDOERS`: ID of sudo users (separate multiple ids with space).
-- `BOT_TOKEN`: Telegram bot token from https://t.me/botfather. (optional)
-- `QUALITY`: Custom stream quality (high/medium/low) for the userbot in vc. Default: `high`
-- `PREFIX`: Bot commad prefixes (separate multiple prefix with space). Eg: `! /`
-- `LANGUAGE`: An [available](#languages) bot language (can change it anytime). Default: `en`
-- `STREAM_MODE`: An stream mode like audio or video (can change it anytime). Default: `audio`
-- `ADMINS_ONLY`: Put `True` if you want to make /play commands only for admins. Default: `False`
-- `SPOTIFY_CLIENT_ID`: Spotify client id get it from [here](https://developer.spotify.com/dashboard/applications). (optional)
-- `SPOTIFY_CLIENT_SECRET`: Spotify client secret get it from [here](https://developer.spotify.com/dashboard/applications). (optional)
-
-
 ## 📄 <a name="commands"></a>Commands
 
 • /ping ᴜsᴀɢᴇ: `ᴄʜᴇᴄᴋ ɪғ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ`
+
 • /repo 
 ᴜsᴀɢᴇ: `ғɪʀsᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `
+
 • /start | /help
 ᴜsᴀɢᴇ: `sʜᴏᴡ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅᴀs`
 • /mode | /switch
