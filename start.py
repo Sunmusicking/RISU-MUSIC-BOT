@@ -3,54 +3,54 @@ from time import time
 from datetime import datetime
 from config import BOT_USERNAME
 from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
-    ('week', 60 * 60 * 24 * 7),
-    ('day', 60 * 60 * 24),
-    ('hour', 60 * 60),
-    ('min', 60),
-    ('sec', 1)
+    ("week", 60 * 60 * 24 * 7),
+    ("day", 60 * 60 * 24),
+    ("hour", 60 * 60),
+    ("min", 60),
+    ("sec", 1),
 )
+
 
 async def _human_time_duration(seconds):
     if seconds == 0:
-        return 'inf'
+        return "inf"
     parts = []
     for unit, div in TIME_DURATION_UNITS:
         amount, seconds = divmod(int(seconds), div)
         if amount > 0:
-            parts.append('{} {}{}'
-                         .format(amount, unit, "" if amount == 1 else "s"))
-    return ', '.join(parts)
-    
-   
+            parts.append("{} {}{}".format(amount, unit, "" if amount == 1 else "s"))
+    return ", ".join(parts)
+
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/852ec1d19ae76335aea02.jpg",
-        caption=f"""**ʜᴇʏ ɢᴜʏꜱ 
+        caption=f"""**ʜᴇʏ ɢᴜʏꜱ
 ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
 ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Simple_Mundaa)
 **""",
-    reply_markup=InlineKeyboardMarkup(
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚕️ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ⚕️", url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw"
+                        "⚕️ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ⚕️",
+                        url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw",
                     ),
-                    InlineKeyboardButton(
-                        "🎃 ᴏᴡɴᴇʀ 🎃", url="https://t.me/Simple_Mundaa"
-                    )
+                    InlineKeyboardButton("🎃 ᴏᴡɴᴇʀ 🎃", url="https://t.me/Simple_Mundaa"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -58,15 +58,14 @@ async def start_(client: Client, message: Message):
                     ),
                     InlineKeyboardButton(
                         "✨ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/SECRET_SOCIETY012"
-                    )
-                ]
-                
-           ]
+                    ),
+                ],
+            ]
         ),
     )
-    
-    
-@Client.on_message(commandpro(["/start" ]) & filters.group & ~filters.edited)
+
+
+@Client.on_message(commandpro(["/start"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/bf9f444677e4d565542a6.jpg",
@@ -75,10 +74,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "•ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ•", url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
+                        "•ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ•",
+                        url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw",
+                    )
                 ]
             ]
         ),
     )
-
- 
