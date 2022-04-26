@@ -1,21 +1,3 @@
-"""
-Music Player, Telegram Voice Chat Bot
-Copyright (c) 2021-present Asm Safone <https://github.com/AsmSafone>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
 import os
 import re
 import math
@@ -45,9 +27,9 @@ try:
     config.SPOTIFY = True
 except BaseException:
     print(
-        "WARNING: SPOTIFY_CLIENT_ID or SPOTIFY_CLIENT_SECRET is not set."
-        "Bot will work fine but playing songs with spotify playlist won't work."
-        "Check your configs or .env file if you want to add them or ask @AsmSupport!"
+        "» 𝚆𝙰𝚁𝙽𝙸𝙽𝙶: sᴘᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_ɪᴅ ᴏʀ sᴘᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_sᴇᴄʀᴇᴛ ɪs ɴᴏᴛ sᴇᴛ."
+"ʙᴏᴛ ᴡɪʟʟ ᴡᴏʀᴋ ғɪɴᴇ ʙᴜᴛ ᴘʟᴀʏɪɴɢ sᴏɴɢs ᴡɪᴛʜ sᴘᴏᴛɪғʏ ᴘʟᴀʏʟɪsᴛ ᴡᴏɴ'ᴛ ᴡᴏʀᴋ."
+"ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴏɴғɪɢs ᴏʀ .ᴇɴᴠ ғɪʟᴇ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴛʜᴇᴍ ᴏʀ ᴀsᴋ @Demon_Support_Group"
     )
     config.SPOTIFY = False
 
@@ -74,14 +56,14 @@ async def search(message: Message) -> Optional[Song]:
             media = reply.audio or reply.video or reply.document
             if not media:
                 return None
-            lel = await message.reply_text("`Trying To Download...`")
+            lel = await message.reply_text("`ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ...`")
             file = await reply.download(
                 progress=progress_bar,
-                progress_args=("Downloading...", lel, time.time()),
+                progress_args=("ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...", lel, time.time()),
             )
             await lel.delete()
             return Song(
-                {"title": media.file_name, "source": reply.link, "remote": file},
+                {"ᴛɪᴛʟᴇ": media.file_name, "sᴏᴜʀᴄᴇ": reply.link, "ʀᴇᴍᴏᴛᴇ": file},
                 message,
             )
     else:
@@ -139,7 +121,7 @@ async def progress_bar(current, total, ud_type, msg, start):
             "".join(["▰" for i in range(math.floor(percentage / 10))]),
             "".join(["▱" for i in range(10 - math.floor(percentage / 10))]),
         )
-        current_message = f"**Downloading...** `{round(percentage, 2)}%`\n`{progressbar}`\n**Done**: `{humanbytes(current)}` | **Total**: `{humanbytes(total)}`\n**Speed**: `{humanbytes(speed)}/s` | **ETA**: `{time_to_complete}`"
+        current_message = f"**ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...** `{round(percentage, 2)}%`\n`{progressbar}`\n**ᴅᴏɴᴇ**: `{humanbytes(current)}` | **ᴛᴏᴛᴀʟ**: `{humanbytes(total)}`\n**sᴘᴇᴇᴅ**: `{humanbytes(speed)}/s` | **ᴇᴛᴀ**: `{time_to_complete}`"
         if msg:
             try:
                 await msg.edit(text=current_message)
