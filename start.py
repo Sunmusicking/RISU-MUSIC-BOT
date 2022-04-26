@@ -1,13 +1,11 @@
 import asyncio
 from time import time
 from datetime import datetime
-from config import BOT_USERNAME
-from config import GROUP_SUPPORT, UPDATES_CHANNEL
-from NIXA.filters import command
-from NIXA.command import commandpro
-from pyrogram import filters
+from modules.config import BOT_USERNAME
+from modules.helpers.filters import command
+from modules.helpers.command import commandpro
+from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from NIXA.main import bot as Client
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
