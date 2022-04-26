@@ -1,21 +1,3 @@
-"""
-Music Player, Telegram Voice Chat Bot
-Copyright (c) 2021-present Asm Safone <https://github.com/AsmSafone>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
 import os
 from typing import Union
 from config import config
@@ -52,7 +34,7 @@ async def skip_stream(song: Song, lang):
             await safone[chat.id].delete()
         except BaseException:
             pass
-    infomsg = await song.request_msg.reply_text(lang["downloading"])
+    infomsg = await song.request_msg.reply_text(lang["ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..."])
     await pytgcalls.change_stream(
         chat.id,
         get_quality(song),
@@ -90,7 +72,7 @@ async def start_stream(song: Song, lang):
             await safone[chat.id].delete()
         except BaseException:
             pass
-    infomsg = await song.request_msg.reply_text(lang["downloading"])
+    infomsg = await song.request_msg.reply_text(lang["ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..."])
     try:
         await pytgcalls.join_group_call(
             chat.id,
@@ -118,7 +100,7 @@ async def start_stream(song: Song, lang):
     )
     safone[chat.id] = await song.request_msg.reply_photo(
         photo=thumb,
-        caption=lang["playing"]
+        caption=lang["ᴘʟᴀʏɪɴɢ..."]
         % (
             song.title,
             song.source,
