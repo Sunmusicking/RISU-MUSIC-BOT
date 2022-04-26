@@ -1,4 +1,4 @@
- 
+# ʀɪsᴜ ᴍᴜsɪᴄ ʙᴏᴛ 
 
 ## 🏮 ғᴇᴀᴛᴜʀᴇs 🏮
 Starts streaming your inputs while downloading and converting them. Also, it
@@ -8,7 +8,7 @@ doesn't make produce files.
 
 Restricts control and sensitive commands to admins.
 
-# 🗑 Clean and spam free
+### 🗑 Clean and spam free
 
 Deletes old playing trash to keep your chats clean.
 
@@ -38,9 +38,11 @@ thanks to the translators.
 
 ## 🚀 <a name="deploy"></a>🔸ᴅᴇᴘʟᴏʏ🔸
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://deploy.safone.tech)
+### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
-Note: `First Fork The Repo Then Click On Deploy To Heroku Button!`
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sumit9969/RISU-MUSIC-BOT)
+
+𝙽𝙾𝚃𝙴: `ғɪʀsᴛ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴛᴀʀs`
 
 
 ##  <a name="self_host"></a>🇮🇳 sᴇʟғ ʜᴏsᴛ 🇮🇳
@@ -61,7 +63,7 @@ $ cp sample.env .env
 $ python3 main.py
 ```
 
-- Docker Build Method
+- ᴅᴏᴄᴋᴇʀ ʙᴜɪʟᴅ ᴍᴇᴛʜᴏᴅ
 ```bash
 $ git clone https://github.com/Sumit9969/RISU-MUSIC-BOT
 $ cd RISU-MUSIC-BOT
@@ -126,6 +128,5 @@ nᴜsᴀɢᴇ: `sᴡɪᴛᴄʜ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴍᴏᴅᴇ (ᴀᴜᴅ�
 
 • /restart | /update ᴜsᴀɢᴇ: `ʀᴇsᴛᴀʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ`
 
-© **ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) | [ᴅᴇᴍᴏɴ ᴄʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)**"
-}
+© **ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) | [ᴅᴇᴍᴏɴ ᴄʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)
  
