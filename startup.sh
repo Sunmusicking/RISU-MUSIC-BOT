@@ -1,9 +1,9 @@
-echo ">> FETCHING UPSTREAM..."
-git clone https://github.com/AsmSafone/MusicPlayer /MusicPlayer
-echo ">> INSTALLING REQUIREMENTS..."
-cd /MusicPlayer
+echo ">> ғᴇᴛᴄʜɪɴɢ ᴜᴘsᴛʀᴇᴀᴍ..."
+git clone https://github.com/Sumit9969/RISU-MUSIC-BOT /RISU-MUSIC-BOT
+echo ">> ɪɴsᴛᴀʟʟɪɴɢ ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs..."
+cd /RISU-MUSIC-BOT
 pip3 install -U -r requirements.txt
-echo ">> STARTING MUSIC PLAYER USERBOT..."
+echo ">> sᴛᴀʀᴛɪɴɢ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ..."
 clear
 echo "
 #     #                        
@@ -22,6 +22,6 @@ echo "
 #       #      #    #   #   #      #   #  
 #       ###### #    #   #   ###### #    # 
                                           
-MUSIC PLAYER USERBOT IS SUCCESSFULLY DEPLOYED!
+ʀɪsᴜ ᴍᴜsɪᴄ ʙᴏᴛ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ!
 "
 python3 main.py
