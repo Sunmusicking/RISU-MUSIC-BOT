@@ -1,9 +1,7 @@
 import asyncio
 from time import time
 from datetime import datetime
-from modules.config import BOT_USERNAME
-from modules.helpers.filters import command
-from modules.helpers.command import commandpro
+from config import BOT_USERNAME
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -56,10 +54,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/DEMON_CREATORS"
                     ),
                     InlineKeyboardButton(
-                        "✨ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/SECRET_SOCIETY012"
                     )
                 ]
                 
