@@ -69,8 +69,8 @@ $ git clone https://github.com/Sumit9969/RISU-MUSIC-BOT
 $ cd RISU-MUSIC-BOT
 $ cp sample.env .env
 # < edit .env with your own values >
-$ sudo docker build . -t musicplayer
-$ sudo docker run musicplayer
+$ sudo docker build . -t RISU-MUSIC-BOT
+$ sudo docker run RISU-MUSIC-BOT
 ```
 
 ## <a name="commands"></a>⭕ ᴄᴏᴍᴍᴀɴᴅs ⭕
@@ -120,7 +120,7 @@ nᴜsᴀɢᴇ: `sᴡɪᴛᴄʜ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴍᴏᴅᴇ (ᴀᴜᴅ�
 • /lang | language [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ]
 ᴜsᴀɢᴇ : `sᴇᴛ ᴛʜᴇ ʙᴏᴛ ʟᴀɴɢᴜᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ`
 
-• /ip | /import\nᴜsᴀɢᴇ: `ɪᴍᴘᴏʀᴛ ǫᴜᴇᴜᴇ ғʀᴏᴍ ᴇxᴘᴏʀᴛᴇᴅ ғɪʟᴇ `
+• /ip | /import ᴜsᴀɢᴇ: `ɪᴍᴘᴏʀᴛ ǫᴜᴇᴜᴇ ғʀᴏᴍ ᴇxᴘᴏʀᴛᴇᴅ ғɪʟᴇ `
 
 • /ep | /export ᴜsᴀɢᴇ : `ᴇxᴘᴏʀᴛ ᴛʜᴇ ǫᴜᴇᴜᴇ ғᴏʀ ɪᴍᴘᴏʀᴛ ɪɴ ғᴜᴛᴜʀᴇ`
 
