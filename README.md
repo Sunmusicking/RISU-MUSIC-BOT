@@ -45,6 +45,7 @@ thanks to the translators.
 𝙽𝙾𝚃𝙴: `ғɪʀsᴛ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴛᴀʀs`
 
 
+[![ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Sumit9969/RISU-MUSIC-BOT&envs=SESSION,BOT_TOKEN,API_ID,API_HASH,SUDOERS,PREFIX,LANGUAGE,QUALITY,STREAM_MODE,ADMIN_ONLY,SPOTIFY_CLIENT_ID,SPOTIFY_CLIENT_SECRET
 ##  <a name="self_host"></a>🇮🇳 sᴇʟғ ʜᴏsᴛ 🇮🇳
 
 - ʟᴇɢᴇᴄʏ ᴍᴇᴛʜᴏᴅ
